@@ -38,11 +38,18 @@ a {
 .btn2 {
   background-color: blue;
   padding: 12px;
-  border-radius: 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  border: none;
+}
+.btn2:hover {
+  background-color: rgb(42, 75, 141);
+  transition: 0.6s ease-in-out;
 }
 .btn1 {
   background-color: #ffffff00;
   border: none;
+  cursor: pointer;
 }
 
 .blue {
@@ -139,8 +146,8 @@ nav a {
   position: relative;
 }
 
-.people__info {
-  margin-bottom: 70px;
+.btn btn-primary:hover {
+  background-color: #989494;
 }
 
 .ovr {
@@ -231,7 +238,7 @@ h2 {
   margin-top: 40px;
 }
 
-.fram{
+.fram {
   background-color: #051c34;
 }
 
@@ -254,7 +261,7 @@ h2 {
 }
 
 .hero-image img {
-  margin-right: -10px;
+  margin-right: 50px;
 }
 
 .hero__local {
@@ -296,68 +303,68 @@ h2 {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer {
-    background-color: #11141a;
-    color: #ffffff;
-    padding: 70px 0 30px 0;
-    width: 100%;
+  background-color: #11141a;
+  color: #ffffff;
+  padding: 70px 0 30px 0;
+  width: 100%;
 }
 
 .footer__ctr {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.locate{
+.locate {
   width: 28px;
 }
 
-.imgss{
+.imgss {
   margin-bottom: 16px;
 }
 
 .footer__section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__section h4 {
-    font-size: 16px;
-    margin-bottom: 25px;
-    color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #ffffff;
 }
 
 .footer__section a {
-    color: #8a8a8a;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 12px;
+  color: #8a8a8a;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .footer__section a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .info .logo {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 25px;
 }
 
 .info p {
-    color: #8a8a8a;
-    font-size: 14px;
-    margin-bottom: 15px;
-    line-height: 1.5;
+  color: #8a8a8a;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .svg993 {
@@ -373,6 +380,10 @@ h2 {
   color: white;
   margin-top: 35px;
   cursor: pointer;
+}
+.src1:hover {
+  background-color: rgb(9, 22, 122);
+  transition: 0.5s ease-in-out;
 }
 
 .icon-box {
